@@ -1,0 +1,67 @@
+/* Style for the search bar */
+#searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #searchButton {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style for the listings container */
+  #listings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .listing-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .listing-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .listing-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .listing-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .listing-card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Style for reviews and ratings */
+  .listing-card p:first-child {
+    font-weight: bold;
+    color: #008CBA;
+  }
+  
+  /* Style for amenities */
+  .listing-card p:last-child {
+    font-style: italic;
+  }
+  
+  /* Additional styles for specific elements as needed */
+  
